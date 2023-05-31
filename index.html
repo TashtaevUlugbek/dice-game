@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Images/favicon-16x16.png">
+    <link rel="manifest" href="/Images/site.webmanifest">
+    <title>Игра в кости</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1 class="one">0</h1>
+            <h1 class="two">0</h1>
+        </div>
+        <ul class="list">
+            <li class="player">
+                <h1 class="name1">
+                    You didnt enter name
+                </h1>
+                <p class="score1">
+                    Nothing
+                </p>
+               
+                <img class="cube1" width="200" height="200">
+                <img src="./Images/hooray.gif"  id="win1" width="300" height="220">
+            </li>
+            <li class="equal" style="display:none;">
+                <img class="img" src="/Images/equal.png">
+            </li>
+            <li class="player">
+                <h1 class="name2">
+                    You didnt enter name
+                </h1>
+                <p class="score2">
+                    Nothing
+                </p>
+                
+                <img class="cube2" width="200" height="200">
+                <img src="./Images/hooray.gif"  id="win2" width="300" height="220">
+            </li>
+        </ul>
+        <button class="btn">
+            Play
+        </button>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
